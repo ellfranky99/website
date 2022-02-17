@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+
+/* you can add 4 numbers and it will target the text clockwise to how much pixles you have moved in from top, right, bottom, left */
+/* or you can target the text with one number and it will move in all directs the amount of pixles */
+
+body{
+
+    background-image:url("orangutan2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#nav {
+   border: black;
+   border-style:inset;
+   background:rgba(255, 240, 28, 0.801);
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+#nav a{
+   color:black;
+   font-size: 100px;
+   text-decoration: none;
+   font-family:'Lakki Reddy', cursive;  
+}
+#nav a:hover{
+   color:royalblue;
+}
+
+h1{display: flex;
+   text-align:center;
+   font-family:'Luckiest Guy', cursive;
+   justify-content:center;
+   color: rgb(148, 57, 5);
+   font-size:150px;
+   background-color:whitesmoke;
+}
+    
+  
+li{ font-family:'Lakki Reddy', cursive; 
+   color:rgb(148,57,5);
+   font-size: 200px;}
+
+
+h2{text-align:center;
+   font-family:'Luckiest Guy', cursive;
+   text-decoration: underline;
+   color:rgb(82, 34, 194);
+   font-size: 100px;
+   background-color:whitesmoke;
+}
+
+
+#text {
+  text-align: center;
+  border-style: inset;
+  background-color: rgba(171, 224, 64, 0.794);
+  background-blend-mode:color-dodge;
+  font-family:'Lakki Reddy', cursive;
+  font-size: 80px;
+}
+
+#info{
+   font-size: 90px;
+   font-family: 'Lakki Reddy', cursive;
+   border:black;
+   border-style:inset;
+   background:rgba(255, 240, 28, 0.801);
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.pic1{
+   display:flex;
+   justify-content:center;
+   min-width:100%;
+   min-height:50%;
+   width:100%;
+   height:100%;
+}
+
+
+img{
+   display: flex;
+   justify-content: center;
+   border:black;
+   border-radius:30%;
+   min-height: 40%;
+   width:80%;
+   
+}
+
+.img1{
+   display: flex;
+   justify-content: center;
+   border-radius:50%;
+   width:100%;
+   height:100%;
+    
+}
